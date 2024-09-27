@@ -48,6 +48,9 @@ my_list = ["Nombre", 1, "Piso"]
 my_new_dict = dict.fromkeys((my_list))
 print(my_new_dict) #Los keys que no existan se mostrara sin valores
 my_new_dict = dict.fromkeys(("Nombre", 1, "Piso"))
-print(my_new_dict)
-my_new_dict = dict.fromkeys((my_dict)) #Esta seria la forma correcta para aprovechar realmente el "fromkeys" 
-print(my_new_dict)
+print((my_new_dict))
+my_new_dict = dict.fromkeys(my_dict) #Esta seria la forma correcta para aprovechar realmente el "fromkeys" 
+print((my_new_dict))
+
+my_new_dict = dict.fromkeys(my_dict, "Odé") #De esta forma se le pasa el valor a todas las claves Error!!!
+print((my_new_dict))
