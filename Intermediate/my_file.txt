@@ -1,0 +1,6 @@
+Mi nombre es José
+Mi apellido es Odé
+32 años
+Mi lenguaje preferido es Python
+
+Aunque tambien me gusta JavaScript
